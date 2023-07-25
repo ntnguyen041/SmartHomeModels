@@ -1,0 +1,48 @@
+/*  */
+.RomContainer {
+  gap: 1rem;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.RomContainer h1 {
+  font-size: 1.5rem;
+}
+.RomContainer .singleItem {
+  width: 95%;
+  margin-top: 10px;
+  border-radius: 1rem;
+  transform: 0.3s;
+  cursor: pointer;
+}
+.RomContainer .singleItem .content {
+  position: relative;
+  width: 100%;
+}
+.RomContainer .singleItem .content .imageRoom {
+  height: 15rem;
+}
+.RomContainer .singleItem .content .imageRoom img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.RomContainer .singleItem .content .texth {
+  position: absolute;
+  z-index: 5;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.RomContainer .singleItem .diverRoom {
+  display: none;
+  transform: scale(0.5);
+}
+.RomContainer .singleItem:hover {
+  align-items: center;
+  align-content: space-between;
+  transition: 0.5s ease-in;
+  width: 100%;
+}/*# sourceMappingURL=Rooms.css.map */

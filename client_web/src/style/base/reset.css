@@ -1,0 +1,487 @@
+/*  */
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+  background: none;
+}
+
+.light .container {
+  background: hsl(220, 10%, 94%);
+  box-shadow: 2px 2px 8px rgb(190, 190, 190);
+}
+.light .btn {
+  box-shadow: 0 2px 4px hsl(330, 12%, 97%);
+  color: hsl(240, 1%, 48%);
+}
+.light .btn:hover {
+  background: hsl(96, 75%, 100%);
+  color: hsl(94, 59%, 35%);
+}
+.light p {
+  color: hsl(240, 1%, 48%);
+}
+.light .icon {
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 4px hsl(330, 12%, 97%);
+  color: hsl(240, 1%, 48%);
+}
+.light .topSection .headerSection {
+  justify-content: space-between;
+}
+.light .topSection .headerSection .title h1 {
+  color: hsl(0, 0%, 18%);
+}
+.light .topSection .headerSection .title p {
+  color: hsl(240, 1%, 48%);
+}
+.light .topSection .headerSection .timeHome h1 {
+  color: hsl(0, 0%, 18%);
+}
+.light .topSection .headerSection .timeHome p {
+  color: hsl(240, 1%, 48%);
+}
+.light .topSection .headerSection .adminDiv {
+  gap: 1rem;
+}
+.light .topSection .headerSection .adminDiv .icon {
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 4px hsl(330, 12%, 97%);
+}
+.light .topSection .headerSection .adminDiv .adminImage {
+  border: 3px solid hsl(0, 0%, 100%);
+  box-sizing: 0 2px 4px hsl(330, 12%, 97%);
+}
+.light .topSection .cardSection .rightCard h1 {
+  color: hsl(0, 0%, 100%);
+}
+.light .topSection .cardSection .rightCard p {
+  color: hsl(96, 75%, 100%);
+}
+.light .topSection .cardSection .rightCard .buttons .btn {
+  color: hsl(94, 59%, 35%);
+  border: 2px solid transparent;
+}
+.light .topSection .cardSection .rightCard .buttons .transparent {
+  background: none;
+  border: 2px solid hsl(96, 75%, 100%);
+  color: hsl(96, 75%, 100%);
+}
+.light .topSection .cardSection .rightCard .buttons .transparent:hover {
+  background: hsl(96, 75%, 100%);
+  color: hsl(94, 59%, 35%);
+}
+.light .topSection .cardSection .leftCard .main::before {
+  background: hsl(96, 75%, 100%);
+}
+.light .topSection .cardSection .leftCard .main .textDiv .h1 {
+  color: hsl(0, 0%, 18%);
+}
+.light .topSection .cardSection .leftCard .main .textDiv .flex {
+  color: hsl(0, 0%, 18%);
+}
+.light .topSection .cardSection .leftCard .main .textDiv .flex smail {
+  font-size: 0.938rem;
+  color: hsl(94, 59%, 35%);
+}
+.light .topSection .cardSection .leftCard .main .textDiv .link:hover {
+  color: hsl(94, 59%, 35%);
+}
+.light .sideBar {
+  background: hsl(0, 0%, 100%);
+}
+.light .sideBar .logoDiv img {
+  background-color: hsl(330, 12%, 97%);
+}
+.light .sideBar .logoDiv h2 {
+  font-size: 1.25rem;
+  color: hsl(94, 59%, 35%);
+}
+.light .sideBar .menuDiv .divTitle,
+.light .sideBar .setingDiv .divTitle {
+  color: hsl(0, 0%, 18%);
+}
+.light .sideBar .menuDiv .menuLists .listItem::before,
+.light .sideBar .setingDiv .menuLists .listItem::before {
+  background: hsl(94, 59%, 35%);
+}
+.light .sideBar .menuDiv .menuLists .listItem .menuLink,
+.light .sideBar .setingDiv .menuLists .listItem .menuLink {
+  color: rgb(190, 190, 190);
+}
+.light .sideBar .menuDiv .menuLists .listItem:hover .menuLink,
+.light .sideBar .setingDiv .menuLists .listItem:hover .menuLink {
+  color: hsl(94, 59%, 35%);
+}
+.light .sideBarCard .CardContent {
+  background: #bdf094;
+}
+.light .listuser {
+  background: hsl(120, 5%, 88%);
+}
+.light .listuser:hover {
+  background: hsl(120, 27%, 87%);
+  box-shadow: 0 2px 2px hsl(330, 12%, 97%);
+}
+.light .QRContainer .Qrcheckicon {
+  background: hsl(120, 5%, 88%);
+}
+
+.night .container {
+  background: hsl(240, 2%, 12%);
+  box-shadow: 2px 2px 8px rgb(123, 122, 122);
+}
+.night .btn {
+  box-shadow: 0 2px 4px hsl(300, 1%, 36%);
+  color: hsl(240, 100%, 100%);
+  background: hsl(0, 0%, 51%);
+}
+.night .btn:hover {
+  background: hsl(0, 0%, 30%);
+  color: hsl(94, 59%, 35%);
+}
+.night h1 {
+  color: hsl(0, 0%, 51%);
+}
+.night p {
+  color: hsl(240, 100%, 100%);
+}
+.night .icon {
+  background: none;
+  box-shadow: 0 2px 4px hsl(330, 12%, 97%);
+  color: hsl(240, 1%, 48%);
+}
+.night .topSection .headerSection {
+  justify-content: space-between;
+}
+.night .topSection .headerSection .title h1 {
+  color: hsl(0, 0%, 51%);
+}
+.night .topSection .headerSection .title p {
+  color: hsl(240, 1%, 48%);
+}
+.night .topSection .headerSection .timeHome h1 {
+  color: hsl(0, 0%, 51%);
+}
+.night .topSection .headerSection .timeHome p {
+  color: hsl(240, 1%, 48%);
+}
+.night .topSection .headerSection .adminDiv {
+  gap: 1rem;
+}
+.night .topSection .headerSection .adminDiv .icon {
+  background: hsl(0, 1%, 29%);
+  box-shadow: 0 2px 4px hsl(300, 1%, 36%);
+}
+.night .topSection .headerSection .adminDiv .adminImage {
+  border: 3px solid hsl(0, 1%, 29%);
+  box-sizing: 0 2px 4px hsl(300, 1%, 36%);
+}
+.night .topSection .cardSection .rightCard h1 {
+  color: hsl(0, 1%, 29%);
+}
+.night .topSection .cardSection .rightCard p {
+  color: hsl(0, 0%, 30%);
+}
+.night .topSection .cardSection .rightCard .buttons .btn {
+  color: hsl(94, 59%, 35%);
+  border: 2px solid transparent;
+  background: hsl(0, 1%, 29%);
+}
+.night .topSection .cardSection .rightCard .buttons .transparent {
+  background: none;
+  border: 2px solid hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 30%);
+}
+.night .topSection .cardSection .rightCard .buttons .transparent:hover {
+  background: hsl(0, 0%, 30%);
+  color: hsl(94, 59%, 35%);
+}
+.night .topSection .cardSection .leftCard .main::before {
+  background: hsl(0, 0%, 30%);
+}
+.night .topSection .cardSection .leftCard .main .textDiv .h1 {
+  color: hsl(0, 0%, 51%);
+}
+.night .topSection .cardSection .leftCard .main .textDiv .flex {
+  color: hsl(0, 0%, 51%);
+}
+.night .topSection .cardSection .leftCard .main .textDiv .flex smail {
+  color: hsl(94, 59%, 35%);
+}
+.night .topSection .cardSection .leftCard .main .textDiv .link:hover {
+  color: hsl(94, 59%, 35%);
+}
+.night .sideBar {
+  background: hsl(0, 1%, 29%);
+}
+.night .sideBar .logoDiv img {
+  background-color: none;
+}
+.night .sideBar .logoDiv h2 {
+  color: hsl(94, 59%, 35%);
+}
+.night .sideBar .menuDiv .divTitle,
+.night .sideBar .setingDiv .divTitle {
+  color: hsl(0, 0%, 51%);
+}
+.night .sideBar .menuDiv .menuLists .listItem::before,
+.night .sideBar .setingDiv .menuLists .listItem::before {
+  background: none;
+}
+.night .sideBar .menuDiv .menuLists .listItem .menuLink,
+.night .sideBar .setingDiv .menuLists .listItem .menuLink {
+  color: rgb(190, 190, 190);
+}
+.night .sideBar .menuDiv .menuLists .listItem:hover .menuLink,
+.night .sideBar .setingDiv .menuLists .listItem:hover .menuLink {
+  color: hsl(94, 59%, 35%);
+}
+.night .sideBarCard .icon {
+  background: #28361f;
+  border: 10px solid hsl(0, 1%, 29%);
+}
+.night .sideBarCard .CardContent {
+  background: #28361f;
+  color: hsl(240, 1%, 48%);
+}
+.night .sideBarCard p {
+  color: hsl(240, 1%, 48%);
+}
+.night .LisitingSection .heading h1 {
+  color: hsl(0, 0%, 51%);
+}
+.night .LisitingSection .heading .btn {
+  border: 1px solid transparent;
+}
+.night .LisitingSection .heading .btn:hover {
+  border: 1px solid hsl(94, 59%, 35%);
+}
+.night .LisitingSection .secContainer .singleItem {
+  background: hsl(0, 1%, 23%);
+}
+.night .LisitingSection .secContainer .singleItem:hover {
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 2px hsl(300, 1%, 36%);
+}
+.night .LisitingSection .secContainer .singleItem .icon {
+  color: hsl(94, 59%, 35%);
+}
+.night .LisitingSection .secContainer .singleItem h3 {
+  color: hsl(0, 0%, 51%);
+}
+.night .listuser {
+  background: hsl(0, 1%, 23%);
+}
+.night .listuser:hover {
+  background: hsl(0, 0%, 100%);
+  box-shadow: 0 2px 2px hsl(300, 1%, 36%);
+}
+
+html {
+  font-size: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.grid2 {
+  display: grid;
+  align-content: center;
+  gap: 3rem;
+}
+
+.container {
+  position: relative;
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+}
+
+.btn .icon {
+  margin-left: 0.5rem;
+}
+
+.btn .icon {
+  margin-left: 0.5rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mainContent {
+  width: 82%;
+  height: 100%;
+  padding: 2rem;
+  overflow: auto;
+}
+.mainContent .bottom {
+  margin-top: 2rem;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 990px) {
+  .bottom {
+    flex-direction: column;
+  }
+  .cardSection {
+    flex-direction: column;
+  }
+  .cardSection .rightCard, .cardSection .leftCard {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .cardSection .leftCard {
+    align-self: flex-start;
+    height: 10px !important;
+  }
+  .cardSection .leftCard .sideBarCard {
+    display: block;
+  }
+}
+@media only screen and (max-width: 725px) {
+  .headerSection {
+    flex-direction: column;
+    text-align: center;
+  }
+  .headerSection .adminDiv {
+    display: none;
+  }
+  .cardSection .rightCard {
+    text-align: center;
+    padding: 0;
+  }
+  .cardSection .rightCard .buttons {
+    flex-direction: column;
+    margin: auto;
+  }
+  .cardSection .rightCard .btn {
+    width: 100%;
+  }
+  .sideBar .darkmode {
+    display: block;
+  }
+  .LisitingSection .secContainer .singleItem {
+    width: 35%;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .topSection .cardSection .rightCard {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .topSection .cardSection .rightCard h1 {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (max-width: 745px) {
+  .layout {
+    display: block;
+    padding: 0;
+  }
+  .container {
+    width: 101vw;
+    height: 101vh;
+    border-radius: 0;
+  }
+  .sideBar .logoDiv {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sideBar .logoDiv img {
+    margin-right: 2.5rem;
+    max-width: 50px;
+  }
+  .sideBar .logoDiv h2 {
+    display: none;
+  }
+  .menuDiv .divTitle, .menuDiv .smailText {
+    display: none;
+  }
+  .menuDiv .menuLink .listItem .menuLink {
+    justify-content: center;
+  }
+  .menuDiv .menuLink .listItem .icon {
+    font-size: 1.5rem;
+  }
+  .CardContent {
+    display: none;
+  }
+  .topSection .cardSection .rightCard {
+    padding: 0;
+  }
+  .darkmode label {
+    width: 3.7em;
+    height: 2em;
+    border-radius: 3rem;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.3), inset 0px -5px 15px rgba(255, 255, 255, 0.3);
+  }
+  .darkmode label:after {
+    height: 1.7rem;
+    width: 1.7rem;
+    background: #f2f2f2;
+    border-radius: 3rem;
+    top: 0.1rem;
+    left: 0.1rem;
+  }
+  .darkmode input:checked ~ label:after {
+    left: 3.5rem;
+  }
+  .mainContent {
+    padding: 0;
+  }
+  .container-listuser {
+    width: 100%;
+  }
+  #namehome {
+    margin-right: none;
+  }
+  .QRContainer {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=reset.css.map */

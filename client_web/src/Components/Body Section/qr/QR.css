@@ -1,0 +1,15 @@
+.QRContainer {
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.QRContainer .Qrcheckicon {
+  background: rgb(43, 51, 57);
+  padding: 1rem;
+}
+.QRContainer .Qrcheckicon .cardName {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=QR.css.map */

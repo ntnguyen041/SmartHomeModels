@@ -1,0 +1,607 @@
+
+@use '../abstracts/style.scss' as st;
+@use '../abstracts/style1.scss' as st1;
+ 
+// body{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin: auto;
+//     padding: 1rem;
+//     background:none;
+//   }
+  .layout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+    background:none;
+  }
+  .light{
+    .container{
+      background: st.$bgColor;
+      box-shadow: 2px 2px 8px st.$greyText;
+    }
+    .btn{
+      box-shadow: 0 2px 4px st.$inputColor;
+      color: st.$textColor;
+    }
+    .btn:hover{
+      background: st.$paleGreen;
+      color: st.$PrimaryColor;
+    }
+
+    p{
+      color: st.$textColor;
+    }
+    .icon{
+      background: st.$whileColor;
+      box-shadow: 0 2px 4px st.$inputColor;
+      color: st.$textColor;
+    }
+ 
+    .topSection{
+      .headerSection{
+          justify-content: space-between;
+          .title{
+              h1{
+                  color: st.$blaclColor;
+              }
+              p{
+                  color: st.$textColor;
+              }
+          }
+  
+          .timeHome{
+              h1{
+                  color: st.$blaclColor;
+              }
+              p{
+                  color: st.$textColor;
+              }
+          }
+  
+          .adminDiv{
+              gap: 1rem;
+              .icon{
+                  background: st.$whileColor;
+                  box-shadow: 0 2px 4px st.$inputColor;
+              }
+              .adminImage{
+                  border: 3px solid st.$whileColor;
+                  box-sizing: 0 2px 4px st.$inputColor;
+              }
+  
+          }
+      }
+  
+      .cardSection{
+          .rightCard{
+              h1{
+                  color: st.$whileColor;
+              }
+              p{
+                  color: st.$paleGreen;
+              }
+              .buttons{
+                  .btn{
+                      color: st.$PrimaryColor;
+                      border: 2px solid transparent;
+                  }
+                  .transparent{
+                      background: none;
+                      border: 2px solid st.$paleGreen;
+                      color: st.$paleGreen;
+                      &:hover{
+                          background: st.$paleGreen;
+                          color: st.$PrimaryColor;
+                      }
+                  }
+              }
+          }
+          .leftCard{
+              .main{
+                  &::before{
+                      background: st.$paleGreen;
+                  }
+                  .textDiv{
+                      .h1{
+                          color: st.$blaclColor;
+                      }
+                      .flex{
+                          color: st.$blaclColor;
+                          smail{
+                              font-size: st.$normalFontSize;
+                              color: st.$PrimaryColor;
+                          }
+                      }
+                      .link{
+                          &:hover{
+                              color: st.$PrimaryColor;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+  }
+    //// sidebar
+    /// 
+    .sideBar{
+      background: st.$whileColor;
+      .logoDiv {
+ 
+        img {
+          background-color: st.$inputColor;
+        }
+        h2 {
+          font-size: st.$h2FontSize;
+          color: st.$PrimaryColor;
+        }
+      }
+      .menuDiv,
+      .setingDiv {
+        .divTitle {
+          color: st.$blaclColor;
+        }
+        .menuLists {
+          .listItem {
+            &::before {
+              background: st.$PrimaryColor;
+            }
+            .menuLink {
+              color: st.$greyText;
+            }
+            &:hover .menuLink{
+              color: st.$PrimaryColor;
+            }
+          }
+        }
+      }
+    }
+    .sideBarCard{
+      .CardContent{
+        background: st.$HoverColor;
+      }
+    }
+    .listuser{
+      background: st.$itemCardColor;
+      &:hover{
+        background: st.$itemCardHome;
+        box-shadow: 0 2px 2px st.$inputColor ;
+    }
+    }
+    .QRContainer{
+      .Qrcheckicon{
+       background:st.$itemCardColor;
+      }
+   }
+    }
+
+
+  .night{
+    .container{
+      background: st1.$bgColor;
+      box-shadow: 2px 2px 8px st1.$greyText;
+    }
+    .btn{
+      box-shadow: 0 2px 4px st1.$inputColor;
+      color: st1.$textColor;
+      background: st1.$blaclColor;
+    }
+    .btn:hover{
+      background: st1.$paleGreen;
+      color: st1.$PrimaryColor;
+    }
+    
+    h1{
+      color: st1.$blaclColor;
+    }
+    p{
+      color: st1.$textColor;
+    }
+    .icon{
+      background: none;
+      box-shadow: 0 2px 4px st.$inputColor;
+      color: st.$textColor;
+    }
+    .topSection{
+      .headerSection{
+          justify-content: space-between;
+          .title{
+              h1{
+                  color: st1.$blaclColor;
+              }
+              p{
+                  color: st.$textColor;
+              }
+          }
+  
+          .timeHome{
+              h1{
+                  color: st1.$blaclColor;
+              }
+              p{
+                  color: st.$textColor;
+              }
+          }
+  
+          .adminDiv{
+              gap: 1rem;
+              .icon{
+                  background: st1.$whileColor;
+                  box-shadow: 0 2px 4px st1.$inputColor;
+              }
+              .adminImage{
+                  border: 3px solid st1.$whileColor;
+                  box-sizing: 0 2px 4px st1.$inputColor;
+              }
+  
+          }
+      }
+      .cardSection{
+          .rightCard{
+              h1{
+                  color: st1.$whileColor;
+              }
+              p{
+                  color: st1.$paleGreen;
+              }
+              .buttons{
+                  .btn{
+                      color: st1.$PrimaryColor;
+                      border: 2px solid transparent;
+                      background: st1.$whileColor;
+                  }
+                  .transparent{
+                      background: none;
+                      border: 2px solid st1.$paleGreen;
+                      color: st1.$paleGreen;
+                      &:hover{
+                          background: st1.$paleGreen;
+                          color: st1.$PrimaryColor;
+                      }
+                  }
+              }
+          }
+          .leftCard{
+              .main{
+                  &::before{
+                      background: st1.$paleGreen;
+                  }
+                  .textDiv{
+                      .h1{
+                          color: st1.$blaclColor;
+                      }
+                      .flex{
+                          color: st1.$blaclColor;
+                          smail{
+                              color: st1.$PrimaryColor;
+                          }
+                      }
+                      .link{
+                          &:hover{
+                              color: st1.$PrimaryColor;
+                          }
+                      }
+                  }
+              }
+          }
+      }
+    }
+  
+
+
+    .sideBar{
+      background: st1.$whileColor;
+      .logoDiv {
+  
+        img {
+          background-color: none;
+        }
+        h2 {
+          color: st1.$PrimaryColor;
+        }
+      }
+      .menuDiv,
+      .setingDiv {
+        .divTitle {
+          color: st1.$blaclColor;
+        }
+        .menuLists {
+          .listItem {
+            &::before {
+              background: none;
+            }
+            .menuLink {
+              color: st.$greyText;
+            }
+            &:hover .menuLink{
+              color: st.$PrimaryColor;
+            }
+          }
+        }
+      }
+     
+    }
+    .sideBarCard{
+      .icon{
+        background: st1.$HoverColor;
+        border: 10px solid st1.$whileColor;
+      }
+      .CardContent{
+        background: st1.$HoverColor;
+        color: st.$textColor;
+      }
+      p{
+        color: st.$textColor;
+      }
+    }
+    ////
+    .LisitingSection{
+      .heading{
+          h1{
+              color: st1.$blaclColor;
+          }
+          .btn{
+              border: 1px solid transparent;
+          }
+          .btn:hover{
+              border: 1px solid st1.$PrimaryColor;
+          }
+      }
+      .secContainer{
+          .singleItem{
+              background: st1.$itemCardColor;
+              &:hover{
+                  background: st1.$itemCardHome;
+                  box-shadow: 0 2px 2px st1.$inputColor ;
+              }
+              
+              .icon{
+                  color: st1.$PrimaryColor;
+              }
+              h3{
+                  color: st1.$blaclColor;
+              }
+          }
+      }
+  }
+  .listuser{
+    background: st1.$itemCardColor;
+    &:hover{
+      background: st1.$itemCardHome;
+      box-shadow: 0 2px 2px st1.$inputColor ;
+  }
+  }
+  }
+
+  html{
+    font-size: 90%;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    padding-left: 0px;
+  }
+  li{
+    list-style: none;
+  }
+  .icon{
+    font-size: st.$h2FontSize;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+  .flex{
+    display: flex;
+    align-items: center;
+  }
+  .grid{
+    display: grid;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .grid2{
+    display: grid;
+    align-content: center;
+    gap: 3rem;
+  }
+   
+  .container{
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 1rem;
+  }
+  .btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: .8rem 1rem;
+ 
+  }
+  .btn .icon{
+    margin-left: .5rem;
+  }
+ 
+  .btn .icon{
+    margin-left: .5rem;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  .mainContent{
+    width: 82%;
+    height: 100%;
+    padding: 2rem;
+    overflow: auto;
+    .bottom{
+        margin-top: 2rem;
+        gap:2rem;
+        align-items:flex-start ;
+    }
+}
+@media only screen and (max-width: 990px){
+  .bottom{
+    flex-direction: column;
+  }
+  .cardSection{
+      flex-direction: column;
+
+    .rightCard, .leftCard{
+      width: 100%;
+      flex-basis: 100%;
+    }
+
+    .leftCard{
+      align-self: flex-start;
+      height: 10px !important;
+      .sideBarCard{
+        display: block;
+      }
+    }
+
+
+  }  
+  /// listing
+  
+}
+@media only screen and (max-width: 725px){
+    .headerSection{
+      flex-direction: column;
+      text-align: center;
+      .adminDiv{
+        display: none;
+      }
+    }
+    .cardSection{
+      .rightCard{
+        text-align: center;
+        padding: 0;
+        .buttons{
+          flex-direction: column;
+          margin: auto;
+         
+        }
+        .btn{
+          width: 100%;
+        }
+       
+      }
+      
+    }
+   .sideBar{
+    .darkmode{
+      display: block;
+    }
+   }
+   ///li
+   .LisitingSection .secContainer .singleItem {
+    width: 35%;
+   }
+   
+}
+@media only screen and (max-width: 390px){
+  .topSection{
+    .cardSection{
+      .rightCard{
+        text-align: center;
+        padding: 2rem 1rem;
+        h1{
+          font-size: st.$h2FontSize;
+        }
+      }
+    }
+  }
+  
+}
+@media only screen and (max-width: 745px){
+  .layout{
+    display: block;
+    padding: 0;
+  }
+  .container{
+    width: 101vw;
+    height: 101vh;
+    border-radius: 0;
+  }
+   .sideBar{
+    .logoDiv{
+      flex-direction: column;
+      text-align: center;
+ 
+
+      img{
+        margin-right: 2.5rem;
+        max-width: 50px;
+      }
+      h2{
+        display: none;
+      }
+    }
+   }
+   .menuDiv{
+    .divTitle, .smailText{
+      display: none;
+    }
+    .menuLink{
+      .listItem{
+        .menuLink{
+          justify-content: center;
+        }
+        .icon{
+          font-size: st.$h1FontSize;
+        }
+      }
+    }
+    
+   }
+  .CardContent{
+    display: none;
+  }
+  .topSection .cardSection .rightCard {
+    padding: 0;
+  }
+  .darkmode{
+  label{
+    width: 3.7em;
+    height: 2em;
+    border-radius: 3rem;
+    box-shadow: inset 0px 5px 15px rgba(0,0,0,0.3), inset 0px -5px 15px rgba(255,255,255,0.3);
+  }
+  label:after{
+    height: 1.7rem;
+    width: 1.7rem;
+    background: #f2f2f2;
+    border-radius: 3rem;
+    top: 0.1rem;
+    left: 0.1rem;
+  }
+  input:checked ~ label:after{
+    left: 3.5rem;
+  }
+}
+  .mainContent{
+    padding: 0;
+  }
+  .container-listuser {
+    width: 100%;
+  }
+  #namehome{
+    margin-right: none;
+}
+.QRContainer{
+  justify-content: center;
+  
+  
+}
+}

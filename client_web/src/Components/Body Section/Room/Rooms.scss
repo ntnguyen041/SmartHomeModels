@@ -1,0 +1,48 @@
+@use '../../../style/abstracts/style.scss' as st;
+.RomContainer {
+    gap: 1rem;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    h1{
+        font-size: st.$h1FontSize;
+    }
+    .singleItem {
+        width: 95%;
+        margin-top: 10px;
+        border-radius: 1rem;
+        transform: .3s;
+        cursor: pointer;
+        .content {
+            position: relative;
+            width: 100%;
+            .imageRoom {
+                height: 15rem;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 1rem;
+                }
+            }
+            .texth {
+                position: absolute;
+                z-index: 5;
+                font-size: 2rem;
+                padding-left: 1rem;
+            }
+        }
+        .diverRoom{
+            display: none;
+            transform: scale(0.5);
+        }
+    }
+    .singleItem:hover{
+        align-items: center;
+        align-content: space-between;
+        transition: .5s ease-in;
+        width: 100%;
+    }
+
+}

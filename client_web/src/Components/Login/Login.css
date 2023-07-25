@@ -1,0 +1,103 @@
+/*  */
+.slg {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.backgoundbody {
+  height: 100vh;
+  background: hsl(240, 2%, 12%);
+  text-align: center;
+  background: url("../../Aseets/backgound2.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.loginContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: hsla(0, 100%, 98.06%, 0.14);
+  border-radius: 1rem;
+}
+.loginContainer h1 {
+  color: aqua;
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  font-size: 1.5rem;
+}
+.loginContainer .logologin {
+  display: flex;
+  justify-content: center;
+}
+.loginContainer .logologin img {
+  width: 50%;
+  padding-top: 1rem;
+}
+.loginContainer form {
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+.loginContainer form .txt_field {
+  position: relative;
+  border-bottom: 2px solid #adadad;
+  margin: 30px 0;
+}
+.loginContainer form .txt_field input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 0.813rem;
+  border: none;
+  background: none;
+  outline: none;
+  color: hsl(240, 100%, 100%);
+}
+.loginContainer form .txt_field label {
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  color: hsl(240, 100%, 100%);
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: 0.5s;
+}
+.loginContainer form .txt_field span {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #2691d9;
+}
+.loginContainer form .txt_field .form-control:focus-visible ~ .form-label {
+  top: -5px;
+}
+.loginContainer form .btn {
+  width: 100%;
+  background: hsl(300, 1%, 36%);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.loginContainer form .btn:hover {
+  background: hsl(240, 100%, 100%);
+}
+
+@media only screen and (max-width: 412px) {
+  .backgoundbody {
+    height: 90vh;
+    background: url("../../Aseets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .loginContainer {
+    width: 300px;
+  }
+}/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,38 @@
+@use '../../../style/abstracts/style.scss' as st;
+
+.container-listuser {
+    width: 25%;
+
+    .flexx {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+    }
+
+    .content-user {
+        .listuser {
+            margin-bottom: 1rem;
+            border-radius: 1rem;
+            padding-right: 1rem;
+            .icon {
+                font-size: st.$biggestFontSize;
+                border-radius: 5px;
+                padding: 5px;
+            }
+
+            .adminImage {
+                border-radius: 10px;
+                width: 5rem;
+                overflow: hidden;
+                padding: 1rem;
+                img {
+                    height: 100%;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+
+    }
+}

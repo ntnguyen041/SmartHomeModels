@@ -1,0 +1,61 @@
+/*  */
+.LisitingSection {
+  flex-basis: 70%;
+}
+.LisitingSection .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+.LisitingSection .heading h1 {
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 18%);
+  font-weight: 700;
+}
+.LisitingSection .heading .btn {
+  border: 1px solid transparent;
+}
+.LisitingSection .heading .btn:hover {
+  border: 1px solid hsl(94, 59%, 35%);
+}
+.LisitingSection .secContainer {
+  width: 100%;
+  margin: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.LisitingSection .secContainer .singleItem {
+  position: relative;
+  width: 140px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  background: hsl(120, 5%, 88%);
+}
+.LisitingSection .secContainer .singleItem:hover {
+  background: hsl(120, 27%, 87%);
+  box-shadow: 0 2px 2px hsl(330, 12%, 97%);
+}
+.LisitingSection .secContainer .singleItem .icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: hsl(94, 59%, 35%);
+}
+.LisitingSection .secContainer .singleItem h3 {
+  font-size: 1rem;
+  color: hsl(0, 0%, 18%);
+  padding: 1rem 0;
+}
+.LisitingSection .secContainer .singleItem img {
+  width: 100%;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.LisitingSection .chart {
+  width: 90%;
+}/*# sourceMappingURL=Listing.css.map */
